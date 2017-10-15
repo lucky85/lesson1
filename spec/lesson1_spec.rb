@@ -1,3 +1,5 @@
+# frozen_string_literal: true.
+
 require_relative '../lesson1'
 
 RSpec.describe Lesson1 do

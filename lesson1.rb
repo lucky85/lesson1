@@ -1,3 +1,5 @@
+# frozen_string_literal: true.
+
 require 'date'
 class Lesson1
   def sum(val = 0)
