@@ -1,2 +1,8 @@
 Documentation:
   Enabled: false
+
+Metrics/AbcSize:
+  Enabled: true
+  
+Style/FrozenStringLiteralComment:
+  Enabled: true
