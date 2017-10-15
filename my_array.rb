@@ -54,7 +54,7 @@ class MyArray
   end
 
   def chars
-    @array.select { |n| n.between?(1, 26) }.map do |x|
+    @array.select { |y| y.between?(1, 26) }.map do |x|
       ('a'..'z').to_a[x - 1].to_sym
     end
   end
